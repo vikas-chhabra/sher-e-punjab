@@ -18,7 +18,6 @@ export default class FooterComponent extends Component {
         activeEntertainment:false,
         activeTrending:true
       })
-      this.props.navigation.navigate('Trending');
     }
     else if(value==='Bookmark'){
       this.setState({
@@ -27,7 +26,6 @@ export default class FooterComponent extends Component {
         activeBookmark:true,
 
       })
-      this.props.navigation.navigate('Bookmark');
 
     }
     else{
@@ -36,7 +34,6 @@ export default class FooterComponent extends Component {
         activeBookmark:false,
         activeEntertainment:true,
       })
-      this.props.navigation.navigate('Entertainment');
 
     }
   }

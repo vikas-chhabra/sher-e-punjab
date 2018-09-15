@@ -19,7 +19,7 @@ class MainScreen extends Component{
             <Container>
                 <Header/>
                 <Content>
-                    <Trending />
+                    <MainStack />
                 </Content>
                 <FooterComponent/>
             </Container>
